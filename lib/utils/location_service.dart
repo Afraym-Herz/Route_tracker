@@ -37,6 +37,8 @@ class LocationService {
     await checkAndRequestLocationPermission();
     return await location.getLocation();
   }
+
+  
 }
 
 class LocationServiceException implements Exception {}
